@@ -91,7 +91,7 @@ position: absolute;
     z-index: 1;
     display: inline-block;
     background-size: cover;
-    width: 25%;
+    width: 30%;
     height: 109vh;
     left: 62%;
     top: -6%;
@@ -108,7 +108,7 @@ position: absolute;
 	display: inline-block;
 	position: absolute;
     left: 64%;
-    top: 25%;
+    top: 50%;
 
 }
 .tablet-span{
@@ -282,6 +282,9 @@ footer*/
     	font-size: 1.6vw;
 		
     }
+     .tablet-image{
+    	width: 45%;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -301,6 +304,12 @@ footer*/
     }
     .header__search-input{
     	width: 50%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .tablet-span{
+    	padding-right:2%;
     }
 }
 
