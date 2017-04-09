@@ -131,36 +131,47 @@ position: absolute;
 	background: white;
     width: 100%;
     display: inline-block;
-    height: 700px;
+    /*height: 700px;*/
     position: relative;
 }
 .banner-centered{
-	background-color: white;
+	    background-color: white;
     width: 91%;
-    height: 90%;
-    position: absolute;
-    left: 7%;
-    top: 10%;
+    /* height: 90%; */
+    /* position: absolute; */
+    /* left: 7%; */
+    /* top: 10%; */
     z-index: 1;
-
+    padding-top: 6%;
+    padding-bottom: 5%;
+    padding-left: 9%;
+    /* text-align: center; */
 }
 .row-class{
 	font-size: 1.4vw;
 	margin-top: 30px;
 }
 .fontello-icon{
-	font-size: 3vw;
+	/*font-size: 3vw;
     display: inline-block;
     width: 2%;
     margin-top: -11%;
     position: absolute;
-
-    top: 16%;
+    top: 16%;*/
+    font-size: 3vw;
+    display: inline-block;
+    /* width: 2%; */
+    /* margin-top: -11%; */
+    float: left;
+    /* position: absolute; */
+    /* top: 16%; */
 }
+
 .row-item{
 	display: inline-block;
-    margin-left: 19%;
+    /* margin-left: 19%; */
     width: 62%;
+   padding-left: 2%;
 }
 .row-item h7{
 	font-size: calc(8px + 1.2vw);
@@ -233,7 +244,7 @@ footer*/
  
 }
 .social-buttons{
-	margin-left: 39%;
+	margin-left: 30%;
 	margin-top: 2%;
 }
 
