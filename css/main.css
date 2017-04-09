@@ -1,0 +1,231 @@
+*{
+	margin:0;
+	padding: 0;
+}
+.header{
+	background-color: #ffcc00;
+    display: inline-block;
+    height: 660px;
+    width: 100%;
+    position: relative;
+}
+body{
+	font-size: 0;
+}
+h5-class{
+	font-size: 2.5vw;
+}
+h6-class{
+font-size: 2vw;
+}
+
+
+.centered{
+	/*background-color: red;*/
+	background-color: #ffcc00;
+    width: 80%;
+    /*height: 80%*/;
+    height: 64%;
+    position: absolute;
+    left: 10%;
+    top: 32%;
+    z-index: 1;
+
+}
+
+.clear {
+  clear: both;
+}
+.logo-items{
+    width: 80%;
+    height: 20%;
+    position: absolute;
+    left: 10%;
+    top:3%;
+   /* background-color: brown;*/
+   background-color: #ffcc00;
+    z-index: 1000;
+
+}
+.logo{
+	float: left;
+    width: 48px;
+    min-width: 48px;
+    height: 48px;
+    background-size: cover;
+    bottom: 1%;
+}
+.logo-span{
+	margin-left: 1%;
+	font-weight: bold;
+	font-size:calc(10px + 1.5vw);
+	display: inline-block;
+    margin-top: 10px;
+}
+
+
+.items{
+	float: right;
+	width: 32%;
+}
+.item-span{
+	margin-left: 9%;
+    font-size: 1.6vw;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 20px;
+
+}
+.info{
+	float: left;
+    display: inline-block;
+    width: 48%;
+    height: 100%;
+/*    background-color: blue;
+*/ 
+background-color: #ffcc00;   
+position: absolute;
+}
+.tablet-image{
+
+    z-index: 1;
+    display: inline-block;
+    background-size: cover;
+    width: 200px;
+    height: 297px;
+    left: 62%;
+    top: -6%;
+    position: absolute;
+}
+.logo2{
+    width: 53px;
+    height: 53px;
+    background-size: cover;
+    display: inline-block;
+}
+.yellow-logo{
+	z-index: 1173;
+	display: inline-block;
+	position: absolute;
+    left: 64%;
+    top: 25%;
+
+}
+.tablet-span{
+	color: #ffcc00;
+    font-size: 1.6vw;
+    top: 34%;
+    left: 125%;
+    position: absolute;
+}
+
+.icon-apple,.icon-android,.icon-windows{
+	font-size: 2vw;
+	margin-left: 3%;
+}
+.icon-bookmark-empty,.icon-folder-empty,.icon-mail,.icon-lemon,.icon-tablet,.icon-code{
+	font-size: 2vw;
+}
+/*banner */
+.banner{
+	background: white;
+    width: 100%;
+    display: inline-block;
+    height: 700px;
+    position: relative;
+}
+.banner-centered{
+	background-color: white;
+    width: 91%;
+    height: 90%;
+    position: absolute;
+    left: 7%;
+    top: 10%;
+    z-index: 1;
+
+}
+.row-class{
+	font-size: 1.4vw;
+	margin-top: 30px;
+}
+.fontello-icon{
+	font-size: 3vw;
+    display: inline-block;
+    width: 2%;
+    margin-top: -11%;
+    position: absolute;
+
+    top: 16%;
+}
+.row-item{
+	display: inline-block;
+    margin-left: 19%;
+    width: 62%;
+}
+.relativity{
+	position: relative;
+}
+/*
+footer*/
+
+.footer{
+	display: inline-block;
+    background-color: black;
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+
+.centered-h2{
+	
+	color: #ffcc00;
+	font-size: 2.8vw;
+    font-weight: bold;
+    text-align: center;
+
+}
+.header__search-input{
+	border-radius: 5px;
+    /* padding: 4px 7px; */
+    outline: 0;
+    /* align-self: center; */
+    width: 39%;
+    height: 22px;
+    margin-top: 5px;
+    margin-left: 24%;
+    font-size: 1vw;
+    color: black;
+    padding-left: 8px;
+}
+
+.my-button {
+  width: 6%;
+  height: 10px;		
+  vertical-align: middle;
+  border-radius: 10%;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  background: #ffcc00;
+  font-size: 0.8vw;
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
+  display: inline-block;
+  margin-left: 2%;
+ 
+}
+.social-buttons{
+	margin-left: 39%;
+	margin-top: 2%;
+}
+
+.footer-centered{
+	background-color: black;
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    left: 10%;
+    top: 15%;
+    z-index: 1;
+
+}
