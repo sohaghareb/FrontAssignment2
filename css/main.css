@@ -91,8 +91,8 @@ position: absolute;
     z-index: 1;
     display: inline-block;
     background-size: cover;
-    width: 200px;
-    height: 297px;
+    width: 25%;
+    height: 109vh;
     left: 62%;
     top: -6%;
     position: absolute;
@@ -295,6 +295,9 @@ footer*/
     	font-size: 2.6vw;
     	
 
+    }
+    .tablet-image{
+    	width: 50%;
     }
     .header__search-input{
     	width: 50%;
