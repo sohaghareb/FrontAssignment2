@@ -113,10 +113,12 @@ position: absolute;
 }
 .tablet-span{
 	color: #ffcc00;
-    font-size: calc(10px + 1.5vw);;
+    font-size: calc(10px + 1.5vw);
     top: 34%;
     left: 125%;
-    position: absolute;
+    float: right;
+    margin-top: 6%;
+    /* position: absolute; */
 }
 
 .icon-apple,.icon-android,.icon-windows{
