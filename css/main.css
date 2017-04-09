@@ -10,7 +10,9 @@
     position: relative;
 }
 body{
-	font-size: 0;
+	
+	font-family: 'PT Sans', sans-serif;
+
 }
 h5-class{
 	font-size: 2.5vw;
@@ -86,13 +88,21 @@ font-size: 2vw;
 background-color: #ffcc00;   
 position: absolute;
 }
+
+.info h5{
+	color:#4b4b4b;
+}
+
+.info h6{
+	color:#606060;
+}
 .tablet-image{
 
     z-index: 1;
     display: inline-block;
     background-size: cover;
     width: 30%;
-    height: 109vh;
+    height: 100%;
     left: 62%;
     top: -6%;
     position: absolute;
@@ -102,6 +112,7 @@ position: absolute;
     height: 53px;
     background-size: cover;
     display: inline-block;
+    float:left;
 }
 .yellow-logo{
 	z-index: 1173;
@@ -118,6 +129,7 @@ position: absolute;
     left: 125%;
     float: right;
     margin-top: 6%;
+    margin-left: 2px;
     /* position: absolute; */
 }
 
@@ -176,11 +188,12 @@ position: absolute;
    padding-left: 2%;
 }
 .row-item h7{
-	font-size: calc(8px + 1.2vw);
+	font-size: calc(5px + 1.2vw);
 }
 
 .row-item p{
-	font-size: calc(8px + 1vw);
+	font-size: calc(2px + 1vw);
+	color:#606060;
 }
 .relativity{
 	position: relative;
@@ -268,7 +281,8 @@ footer*/
 }
 
 .footer-centered h6{
-	font-size: calc(7px + 1.2vw);
+	font-size: calc(4px + 1.2vw);
+	color:#969696;
 }
 
 
@@ -284,6 +298,9 @@ footer*/
     }
      .tablet-image{
     	width: 45%;
+    }
+    .row-item p{
+    	font-size: 10px;
     }
 }
 
@@ -301,15 +318,15 @@ footer*/
     }
     .tablet-image{
     	width: 50%;
+    	height: 80%
     }
     .header__search-input{
     	width: 50%;
     }
+    .row-item p{
+    	font-size: 10px;
+    }
+   
 }
 
-@media only screen and (max-width: 600px) {
-    .tablet-span{
-    	padding-right:2%;
-    }
-}
 
